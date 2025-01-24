@@ -3,6 +3,7 @@ import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
+import { HomeBackground } from '@/components/home-bg'
 import { Keyboard } from '@/components/keyboard'
 import { Link } from '@/components/link'
 import { LinkedAvatars } from '@/components/linked-avatars'
@@ -24,7 +25,8 @@ export const metadata = {
 function Hero() {
   return (
     <div className="relative">
-      <Gradient className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-inset ring-black/5" />
+      {/* <Gradient className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-inset ring-black/5" /> */}
+      <HomeBackground className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-inset ring-black/5" />
       <Container className="relative">
         <Navbar
           banner={
