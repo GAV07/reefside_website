@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: 'Switzer, system-ui, sans-serif',
+        sans: 'Roboto, system-ui, sans-serif',
+        libre: 'Libre Bodoni, serif',
       },
       borderRadius: {
         '4xl': '2rem',
