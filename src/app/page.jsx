@@ -19,7 +19,7 @@ import { ChevronRightIcon } from '@heroicons/react/16/solid'
 
 export const metadata = {
   description:
-    'Radiant helps you sell more by revealing sensitive information about your customers.',
+    'Reefside Ventures is a dynamic platform dedicated to supporting early-stage founders through a combination of programs, initiatives, custom services, and connections to funding.',
 }
 
 function Hero() {
@@ -34,7 +34,7 @@ function Hero() {
               href="/blog/radiant-raises-100m-series-a-from-tailwind-ventures"
               className="flex items-center gap-1 rounded-full bg-[#FF6F61] px-3 py-0.5 text-sm/6 font-medium text-white data-[hover]:bg-fuchsia-950/30"
             >
-              Radiant raises $100M Series A from Tailwind Ventures
+              Learn More About Reefside Ventures
               <ChevronRightIcon className="size-4" />
             </Link>
           }
@@ -45,14 +45,16 @@ function Hero() {
             REEFSIDE
           </h1>
           <h3 className="ont-display font-roboto text-balance tracking-[.35rem] text-lg text-white sm:text-3xl/[0.8] md:text-2xl/[0.8]">VENTURES</h3>
-          <p className="mx-auto mt-8 max-w-4xl text-xl/7 font-medium text-white sm:text-xl/8">
+          <p className="mx-auto mt-8 max-w-4xl text-xl/7 font-small text-white sm:text-xl/8">
             Reefside Ventures is a dynamic platform dedicated to supporting early-stage founders through a combination of programs, initiatives, custom services, and connections to funding.
           </p>
-          <div className="mx-auto mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row justify-center">
-            <Button href="#">Get started</Button>
-            <Button variant="secondary" href="/pricing">
-              See pricing
-            </Button>
+          <div className="mt-36">
+            <p className="text-white font-medium">Join the waitlist for upcoming engagements</p>
+            <div className="mx-auto mt-4 flex flex-col gap-x-6 gap-y-4 sm:flex-row justify-center">
+              <Button className="w-[25vw]" variant="secondary" href="/pricing">Technical Demos</Button>
+              <Button className="w-[25vw]" href="#">Founder Sprints</Button>
+              <Button className="w-[25vw]" variant="secondary" href="/pricing">Expert Engagements</Button>
+            </div>
           </div>
         </div>
       </Container>
