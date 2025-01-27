@@ -5,8 +5,8 @@ ReactGA.initialize("G-0N2MY8TL6B");
 
 export const metadata = {
   title: {
-    template: '%s - Radiant',
-    default: 'Radiant - Close every deal',
+    template: '%s - Reefside Ventures',
+    default: 'Reefside Ventures - See you reef side',
   },
 }
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="The Radiant Blog"
+          title="Reefside Ventures"
           href="/blog/feed.xml"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
