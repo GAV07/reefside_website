@@ -1,4 +1,7 @@
 import '@/styles/tailwind.css'
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-0N2MY8TL6B");
 
 export const metadata = {
   title: {
@@ -28,15 +31,6 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"/>
       </head>
-      {/* <!-- Google tag (gtag.js) --> */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-0N2MY8TL6B"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-
-        gtag('config', 'G-0N2MY8TL6B');
-      </script>
       <body className="text-gray-950 antialiased">{children}</body>
     </html>
   )
