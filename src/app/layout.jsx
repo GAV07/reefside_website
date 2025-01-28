@@ -1,7 +1,4 @@
 import '@/styles/tailwind.css'
-import ReactGA from "react-ga4";
-
-ReactGA.initialize("G-0N2MY8TL6B");
 
 export const metadata = {
   title: {

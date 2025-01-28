@@ -1,3 +1,5 @@
+'use client'
+
 import { BentoCard } from '@/components/bento-card'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
@@ -16,13 +18,16 @@ import { Screenshot } from '@/components/screenshot'
 import { Testimonials } from '@/components/testimonials'
 import { Heading, Subheading } from '@/components/text'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
+import ReactGA from "react-ga4";
+import { useEffect } from "react";
 
-export const metadata = {
-  description:
-    'Reefside Ventures is a dynamic platform dedicated to supporting early-stage founders through a combination of programs, initiatives, custom services, and connections to funding.',
-}
+// export const metadata = {
+//   description:
+//     'Reefside Ventures is a dynamic platform dedicated to supporting early-stage founders through a combination of programs, initiatives, custom services, and connections to funding.',
+// }
 
 function Hero() {
+
   return (
     <div className="relative h-[99vh]">
       {/* <Gradient className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-inset ring-black/5" /> */}
@@ -195,6 +200,11 @@ function DarkBentoSection() {
 }
 
 export default function Home() {
+
+  useEffect(() => {
+    ReactGA.initialize("G-0N2MY8TL6B");
+  }, [])
+
   return (
     <div className="h-[100vh]">
       <Hero />
