@@ -51,14 +51,12 @@ function Hero() {
           </h1>
           <h3 className="ont-display font-roboto text-balance tracking-[.35rem] text-lg text-white sm:text-3xl/[0.8] md:text-2xl/[0.8]">VENTURES</h3>
           <p className="mx-auto mt-8 max-w-4xl text-xl/7 font-small text-white sm:text-xl/8">
-            Reefside Ventures is a dynamic platform dedicated to supporting early-stage founders through a combination of programs, initiatives, custom services, and connections to funding.
+            Reefside Ventures is building Miami's next entrepreneurial institution, strategically designed to enhance South Florida's early-stage startup opportunities. From our base in Wynwood's tech corridor, we're launching founder-focused programs that combine intensive entrepreneurial development with streamlined pathways to capital. Our mission is to strengthen Miami's growing startup ecosystem by creating a coordinated community where ambitious founders can efficiently connect with resources, strategic partners, and investment opportunities.
           </p>
           <div className="mt-36">
-            <p className="text-white font-medium">Join the waitlist for upcoming engagements</p>
+            {/* <p className="text-white font-medium">Join the waitlist for upcoming engagements</p> */}
             <div className="mx-auto mt-4 flex flex-col gap-x-6 gap-y-4 sm:flex-row justify-center">
-              <Button className="w-[25vw]" variant="secondary" href="/pricing">Technical Demos</Button>
-              <Button className="w-[25vw]" href="#">Founder Sprints</Button>
-              <Button className="w-[25vw]" variant="secondary" href="/pricing">Expert Engagements</Button>
+              <Button className="w-[25vw]" href="https://egavin.notion.site/18b55299d384802d87a7dbab431377e5?pvs=105">Join the Waitlist</Button>
             </div>
           </div>
         </div>
