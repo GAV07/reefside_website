@@ -50,8 +50,8 @@ function Hero() {
             REEFSIDE
           </h1>
           <h3 className="ont-display font-roboto text-balance tracking-[.35rem] text-lg text-white sm:text-3xl/[0.8] md:text-2xl/[0.8]">VENTURES</h3>
-          <p className="mx-auto mt-8 max-w-4xl text-xl/7 font-small text-white sm:text-xl/8">
-            Reefside Ventures is building Miami's next entrepreneurial institution, strategically designed to enhance South Florida's early-stage startup opportunities. From our base in Wynwood's tech corridor, we're launching founder-focused programs that combine intensive entrepreneurial development with streamlined pathways to capital. Our mission is to strengthen Miami's growing startup ecosystem by creating a coordinated community where ambitious founders can efficiently connect with resources, strategic partners, and investment opportunities.
+          <p className="mx-auto mt-8 max-w-5xl text-xl/7 font-small text-white sm:text-xl/8">
+            Reefside Ventures is building Miami&apos;s next entrepreneurial institution, combining intensive founder development with streamlined pathways to capital. We&apos;re creating a community where ambitious founders can efficiently connect with the resources, partners, and opportunities they need to succeed.
           </p>
           <div className="mt-36">
             {/* <p className="text-white font-medium">Join the waitlist for upcoming engagements</p> */}
