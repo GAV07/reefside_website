@@ -20,6 +20,7 @@ import { Heading, Subheading } from '@/components/text'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
 import ReactGA from "react-ga4";
 import { useEffect } from "react";
+import { StaticBackground } from '@/components/static-bg'
 
 // export const metadata = {
 //   description:
@@ -31,12 +32,13 @@ function Hero() {
   return (
     <div className="relative h-[99vh]">
       {/* <Gradient className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-inset ring-black/5" /> */}
-      <HomeBackground className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-inset ring-black/5 overflow-hidden" />
+      {/* <HomeBackground className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-inset ring-black/5 overflow-hidden" /> */}
+      <StaticBackground className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-inset ring-black/5 overflow-hidden" />
       <Container className="relative">
         <Navbar
           banner={
             <Link
-              href="/blog/radiant-raises-100m-series-a-from-tailwind-ventures"
+              href="#"
               className="flex items-center gap-1 rounded-full bg-[#FF6F61] px-3 py-0.5 text-sm/6 font-medium text-white data-[hover]:bg-fuchsia-950/30"
             >
               Learn More About Reefside Ventures
@@ -51,9 +53,9 @@ function Hero() {
           </h1>
           <h3 className="ont-display font-roboto text-balance tracking-[.35rem] text-lg text-white sm:text-3xl/[0.8] md:text-2xl/[0.8]">VENTURES</h3>
           <p className="mx-auto mt-8 max-w-5xl text-xl/7 font-small text-white sm:text-xl/8">
-            Reefside Ventures is building Miami&apos;s next entrepreneurial institution, combining intensive founder development with streamlined pathways to capital. We&apos;re creating a community where ambitious founders can efficiently connect with the resources, partners, and opportunities they need to succeed.
+          Reefside Ventures powers Miami&apos;s next wave of exceptional startups through its venture platform, combining an incubator and accelerator to empower founders building in the city&apos;s vibrant ecosystem.
           </p>
-          <div className="mt-36">
+          <div className="mt-12">
             {/* <p className="text-white font-medium">Join the waitlist for upcoming engagements</p> */}
             <div className="mx-auto mt-4 flex flex-col gap-x-6 gap-y-4 sm:flex-row justify-center">
               <Button className="w-[25vw]" href="https://egavin.notion.site/18b55299d384802d87a7dbab431377e5?pvs=105">Join the Waitlist</Button>
