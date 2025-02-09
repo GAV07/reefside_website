@@ -41,24 +41,24 @@ function Hero() {
               href="#"
               className="flex items-center gap-1 rounded-full bg-[#FF6F61] px-3 py-0.5 text-sm/6 font-medium text-white data-[hover]:bg-fuchsia-950/30"
             >
-              Learn More About Reefside Ventures
+              About Reefside Ventures
               <ChevronRightIcon className="size-4" />
             </Link>
           }
         />
         <div className="text-center pb-24 pt-16 sm:pb-32 sm:pt-24 md:pb-24 md:pt-32">
         {/* <div className="pb-24 pt-16 sm:pb-32 sm:pt-24 md:pb-48 md:pt-32"> */}
-          <h1 className="font-display font-libre text-balance text-6xl/[0.9] font-medium tracking-tight text-white sm:text-8xl/[0.8] md:text-8xl/[0.8]">
+          <h1 className="font-display font-libre text-balance text-5xl font-medium tracking-tight text-white sm:text-8xl/[0.8] md:text-8xl/[0.8]">
             REEFSIDE
           </h1>
-          <h3 className="ont-display font-roboto text-balance tracking-[.35rem] text-lg text-white sm:text-3xl/[0.8] md:text-2xl/[0.8]">VENTURES</h3>
-          <p className="mx-auto mt-8 max-w-5xl text-xl/7 font-small text-white sm:text-xl/8">
+          <h3 className="ont-display font-roboto text-balance tracking-[.35rem] text-sm text-white sm:text-3xl/[0.8] md:text-2xl/[0.8]">VENTURES</h3>
+          <p className="mx-auto mt-8 max-w-5xl text-md font-small text-white sm:text-xl/8">
           Reefside Ventures powers Miami&apos;s next wave of exceptional startups through its venture platform, combining an incubator and accelerator to empower founders building in the city&apos;s vibrant ecosystem.
           </p>
           <div className="mt-12">
             {/* <p className="text-white font-medium">Join the waitlist for upcoming engagements</p> */}
             <div className="mx-auto mt-4 flex flex-col gap-x-6 gap-y-4 sm:flex-row justify-center">
-              <Button className="w-[25vw]" href="https://egavin.notion.site/18b55299d384802d87a7dbab431377e5?pvs=105">Join the Waitlist</Button>
+              <Button className="sm:w-[35vw]" href="https://airtable.com/appTYeSAZNZ3ffizK/pagAIFV3LU7LtDEU4/form">Join Reefside&apos;s Community</Button>
             </div>
           </div>
         </div>

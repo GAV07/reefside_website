@@ -87,16 +87,17 @@ export function Navbar({ banner }) {
               </Link> */}
             </PlusGridItem>
             {banner && (
-              <div className="relative hidden items-center py-3 lg:flex">
+              // Add hidden to make the banner disappear
+              <div className="relative items-center py-3 lg:flex"> 
                 {banner}
               </div>
             )}
           </div>
           <DesktopNav />
-          <MobileNavButton />
+          {/* <MobileNavButton /> */}
         </PlusGridRow>
       </PlusGrid>
-      <MobileNav />
+      {/* <MobileNav /> */}
     </Disclosure>
   )
 }
