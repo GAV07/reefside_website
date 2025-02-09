@@ -19,8 +19,8 @@ export const metadata = {
 function Header() {
   return (
     <Container className="mx-auto mt-16">
-      <Heading className="" as="h1">Reefside Venture Story</Heading>
-      <Lead className="my-6 max-w-3xl">
+      <Heading className="text-white" as="h1">Reefside Venture Story</Heading>
+      <Lead className="text-[#C8D2D3] my-6 max-w-3xl">
         We have been in Miami for over a decade and we know what potential exists in this ecosystem
       </Lead>
       <Pump
@@ -41,7 +41,7 @@ function Header() {
               {async ([{ about }]) => {
                 "use server"
                 return(
-                  <div className="prose max-w-4xl ">
+                  <div className="prose text-white max-w-4xl ">
                     <RichText>{about.storyBlock.json.content}</RichText>
                   </div>
                 ) 
@@ -477,7 +477,7 @@ function Careers() {
 
 export default function Company() {
   return (
-    <main className="relative overflow-hidden">
+    <main className="bg-[#0D3946] relative overflow-hidden">
       {/* <GradientBackground /> */}
       {/* <StaticBackground className="static z-0 w-full h-full bottom-0"/> */}
       <Container>
