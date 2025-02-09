@@ -62,7 +62,7 @@ function MobileNav() {
             }}
             key={href}
           >
-            <Link href={href} className="text-base font-medium text-[#FF6F61]">
+            <Link href={href} className="text-base font-medium text-white">
               {label}
             </Link>
           </motion.div>
