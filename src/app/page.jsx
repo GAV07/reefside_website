@@ -5,7 +5,7 @@ import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
-import { HomeBackground } from '@/components/home-bg'
+import { HomeBackground } from '@/components/moving-bg'
 import { Keyboard } from '@/components/keyboard'
 import { Link } from '@/components/link'
 import { LinkedAvatars } from '@/components/linked-avatars'
@@ -36,15 +36,15 @@ function Hero() {
       <StaticBackground className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-inset ring-black/5 overflow-hidden" />
       <Container className="relative">
         <Navbar
-          banner={
-            <Link
-              href="#"
-              className="flex items-center gap-1 rounded-full bg-[#FF6F61] px-3 py-0.5 text-sm/6 font-medium text-white data-[hover]:bg-fuchsia-950/30"
-            >
-              About Reefside Ventures
-              <ChevronRightIcon className="size-4" />
-            </Link>
-          }
+          // banner={
+          //   <Link
+          //     href="#"
+          //     className="flex items-center gap-1 rounded-full bg-[#FF6F61] px-3 py-0.5 text-sm/6 font-medium text-white data-[hover]:bg-fuchsia-950/30"
+          //   >
+          //     About Reefside Ventures
+          //     <ChevronRightIcon className="size-4" />
+          //   </Link>
+          // }
         />
         <div className="text-center pb-24 pt-16 sm:pb-32 sm:pt-24 md:pb-24 md:pt-32">
         {/* <div className="pb-24 pt-16 sm:pb-32 sm:pt-24 md:pb-48 md:pt-32"> */}

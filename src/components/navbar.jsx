@@ -12,8 +12,9 @@ import { Logo } from './logo'
 import { PlusGrid, PlusGridItem, PlusGridRow } from './plus-grid'
 
 const links = [
+  { href: '/', label: 'Home' },
+  { href: '/about', label: 'Story' },
   // { href: '/pricing', label: 'Pricing' },
-  // { href: '/company', label: 'Company' },
   // { href: '/blog', label: 'Blog' },
   // { href: '/login', label: 'Login' },
 ]
@@ -25,7 +26,7 @@ function DesktopNav() {
         <PlusGridItem key={href} className="relative flex">
           <Link
             href={href}
-            className="flex items-center px-4 py-3 text-base font-medium text-gray-950 bg-blend-multiply data-[hover]:bg-black/[2.5%]"
+            className="flex items-center px-4 py-3 text-base font-medium text-[#FF6F61] bg-blend-multiply data-[hover]:bg-black/[2.5%]"
           >
             {label}
           </Link>
@@ -61,7 +62,7 @@ function MobileNav() {
             }}
             key={href}
           >
-            <Link href={href} className="text-base font-medium text-gray-950">
+            <Link href={href} className="text-base font-medium text-[#FF6F61]">
               {label}
             </Link>
           </motion.div>
@@ -87,17 +88,16 @@ export function Navbar({ banner }) {
               </Link> */}
             </PlusGridItem>
             {banner && (
-              // Add hidden to make the banner disappear
-              <div className="relative items-center py-3 lg:flex"> 
+              <div className="relative hidden items-center py-3 lg:flex"> 
                 {banner}
               </div>
             )}
           </div>
           <DesktopNav />
-          {/* <MobileNavButton /> */}
+          <MobileNavButton />
         </PlusGridRow>
       </PlusGrid>
-      {/* <MobileNav /> */}
+      <MobileNav />
     </Disclosure>
   )
 }
