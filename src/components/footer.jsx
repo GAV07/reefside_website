@@ -13,34 +13,34 @@ import { Logo } from "./logo";
 
 export function Footer() {
   const pages = [
-    {
-      title: "Products",
-      href: "#",
-    },
-    {
-      title: "Studio",
-      href: "#",
-    },
-    {
-      title: "Clients",
-      href: "#",
-    },
-    {
-      title: "Pricing",
-      href: "#",
-    },
-    {
-      title: "Blog",
-      href: "#",
-    },
-    {
-      title: "Privacy",
-      href: "#",
-    },
-    {
-      title: "Terms",
-      href: "#",
-    },
+    // {
+    //   title: "Products",
+    //   href: "#",
+    // },
+    // {
+    //   title: "Incubator",
+    //   href: "#",
+    // },
+    // {
+    //   title: "Clients",
+    //   href: "#",
+    // },
+    // {
+    //   title: "Pricing",
+    //   href: "#",
+    // },
+    // {
+    //   title: "Blog",
+    //   href: "#",
+    // },
+    // {
+    //   title: "Privacy",
+    //   href: "#",
+    // },
+    // {
+    //   title: "Terms",
+    //   href: "#",
+    // },
   ];
 
   return (
@@ -71,24 +71,21 @@ export function Footer() {
         <div
           className="flex sm:flex-row flex-col justify-between mt-8 items-center w-full">
           <p className="text-neutral-500 mb-8 sm:mb-0">
-            &copy; DevStudios LLABC
+            &copy; Reefside Ventures LLC
           </p>
           <div className="flex gap-4">
-            <Link href="#">
+            {/* <Link href="#">
               <IconBrandTwitter className="h-6 w-6 text-neutral-500" />
-            </Link>
-            <Link href="#">
+            </Link> */}
+            <Link href="https://www.linkedin.com/company/reefside-ventures/?viewAsMember=true">
               <IconBrandLinkedin className="h-6 w-6 text-neutral-500" />
             </Link>
-            <Link href="#">
+            {/* <Link href="#">
               <IconBrandGithub className="h-6 w-6 text-neutral-500" />
-            </Link>
-            <Link href="#">
-              <IconBrandFacebook className="h-6 w-6 text-neutral-500" />
-            </Link>
-            <Link href="#">
+            </Link> */}
+            {/* <Link href="#">
               <IconBrandInstagram className="h-6 w-6 text-neutral-500" />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

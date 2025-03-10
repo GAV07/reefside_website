@@ -3,7 +3,7 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - Reefside Ventures',
-    default: 'Reefside Ventures - See you reef side',
+    default: 'Reefside Ventures',
   },
 }
 

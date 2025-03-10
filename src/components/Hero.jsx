@@ -4,8 +4,10 @@ import { IconArrowRight } from "@tabler/icons-react";
 import Link from "next/link";
 import React from "react";
 import { Logo } from "./logo";
+import { FlipWords } from "./flip-words";
 
 export function SuperHero() {
+  const words = ["Resources", "Capital", "and a Dynamic Ecosystem"]
   return (
     (<div className="relative h-full min-h-[40rem] w-full bg-white">
       <div className="relative z-20 mx-auto max-w-7xl px-4 py-10 md:px-8 lg:px-4">
@@ -28,20 +30,25 @@ export function SuperHero() {
             </Link> */}
             <h1
               className="bg-gradient-to-b from-black to-neutral-600 bg-clip-text py-4 text-center text-2xl text-transparent md:text-4xl lg:text-7xl">
-                Fueling Early-Stage Founders with Resources, Capital, and a Dynamic Ecosystem
+                Fueling Early-Stage Founders with <br/>
+                <FlipWords words={words}/>
             </h1>
             <p
               className="mx-auto max-w-2xl py-4 text-center text-base text-neutral-600 md:text-lg">
                 
             </p>
             <div className="flex flex-col items-center gap-4 py-4 sm:flex-row">
-              <Link
-                href="#"
-                className="w-40 gap-1 rounded-full border border-[#404040] bg-gradient-to-b from-[#5B5B5D] to-[#262627] px-4 py-2 text-center text-sm text-white">
-                Join our Incubator
+              <Link href="https://airtable.com/app4mzSgVO3FGJZOb/paglon1D95brqD7j3/form">
+                <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+                  Reefside Incubator Applications Open
+                </span>
+              </button>
               </Link>
+              
               <Link
-                href="#"
+                href="https://airtable.com/appTYeSAZNZ3ffizK/pagAIFV3LU7LtDEU4/form"
                 className="w-40 gap-1 rounded-full border border-transparent bg-neutral-100 px-4 py-2 text-center text-sm text-black">
                 Stay connected
               </Link>
@@ -55,18 +62,18 @@ export function SuperHero() {
 
 const Navbar = () => {
   const links = [
-    {
-      label: "Home",
-      href: "/",
-    },
+    // {
+    //   label: "Home",
+    //   href: "/",
+    // },
     {
       label: "Incubator",
-      href: "/incubator",
+      href: "#incubator",
     },
-    {
-      label: "FAQ",
-      href: "#",
-    },
+    // {
+    //   label: "FAQ",
+    //   href: "#",
+    // },
     {
       label: "About Us",
       href: "/about",
@@ -329,23 +336,23 @@ const SideLines = () => {
       <path
         d="M268 115L181.106 6.97176C178.069 3.19599 173.485 1 168.639 1H0"
         stroke="url(#paint0_linear_337_46)"
-        stroke-opacity="0.1"
-        stroke-width="1.5" />
+        strokeOpacity="0.1"
+        strokeWidth="1.5" />
       <path
         d="M1114 115L1200.89 6.97176C1203.93 3.19599 1208.52 1 1213.36 1H1382"
         stroke="url(#paint1_linear_337_46)"
-        stroke-opacity="0.1"
-        stroke-width="1.5" />
+        strokeOpacity="0.1"
+        strokeWidth="1.5" />
       <path
         d="M268 255L181.106 363.028C178.069 366.804 173.485 369 168.639 369H0"
         stroke="url(#paint2_linear_337_46)"
-        stroke-opacity="0.1"
-        stroke-width="1.5" />
+        strokeOpacity="0.1"
+        strokeWidth="1.5" />
       <path
         d="M1114 255L1200.89 363.028C1203.93 366.804 1208.52 369 1213.36 369H1382"
         stroke="url(#paint3_linear_337_46)"
-        stroke-opacity="0.1"
-        stroke-width="1.5" />
+        strokeOpacity="0.1"
+        strokeWidth="1.5" />
       <defs>
         <linearGradient
           id="paint0_linear_337_46"

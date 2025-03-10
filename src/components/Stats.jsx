@@ -19,9 +19,9 @@ export function Stats() {
     },
     {
       description:
-        "[fill]",
-      value: 34,
-      subtext: "million",
+        "Experts and Mentors",
+      value: 20,
+      subtext: "+",
     },
   ];
   return (
@@ -34,8 +34,8 @@ export function Stats() {
         </h2>
         <p
           className="mx-auto mt-4 max-w-2xl text-center text-sm text-neutral-800 md:text-base">
-          Our program is focused on building the traction and GTM strategy for
-          early-stage startups.
+          Join us for 2 months for a program focused exclusively on building the traction and GTM strategy for
+          for your company.
         </p>
         <div
           className="mx-auto mt-10 grid justify-items-center max-w-7xl grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3">

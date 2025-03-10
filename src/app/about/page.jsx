@@ -1,14 +1,12 @@
-import { AnimatedNumber } from '@/components/animated-number'
 import { Button } from '@/components/button'
-import { Container } from '@/components/container'
-import { Footer } from '@/components/footer'
+import { Container } from '@/components/Container'
+import { Footer } from '@/components/Footer'
 import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
 import { Heading, Lead, Subheading } from '@/components/text'
 import { Pump } from "basehub/react-pump"
 import { draftMode } from "next/headers"
 import { RichText } from "basehub/react-rich-text"
-import StaticBackground from '@/components/static-bg'
 
 export const metadata = {
   title: 'Reefside Story',

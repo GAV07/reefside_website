@@ -3,7 +3,7 @@ import { AiOutlineCode } from "react-icons/ai";
 import { BsFillBookmarkCheckFill, BsPen } from "react-icons/bs";
 import { GrDeploy, GrVmMaintenance } from "react-icons/gr";
 import { BiRocket } from "react-icons/bi";
-import { FaLaptopCode, FaMoneyBill } from "react-icons/fa";
+import { CiMoneyBill } from "react-icons/ci";
 
 export const services = [
   {
@@ -48,7 +48,7 @@ export const services = [
   {
     id: 3,
     title: "Co-Working Space",
-    description: `We keep your website running like a well-oiled machine. From optimizing performance to ensuring security, we've got you covered`,
+    description: `Be a part of our community and work alongside other founders in our co-working space.`,
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ export const services = [
     id: 4,
     title: "Connect with Capital",
     description: `Alongside our curriculum we will be taking you through due diligence to parepare for fundraising conversations.`,
-    icon: <FaMoneyBill className="h-8 w-8 text-gray-500" />,
+    icon: <CiMoneyBill className="h-8 w-8 text-gray-500" />,
     pattern: {
       y: 16,
       squares: [
