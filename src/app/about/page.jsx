@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="mx-auto mt-16">
+    <div className="flex-col justify-items-center py-10 bg-[#013b47]">
       <Heading className="text-white" as="h1">Reefside Venture Story</Heading>
       <Lead className="text-[#C8D2D3] my-6 max-w-3xl">
         We have been in Miami for over a decade and we know what potential exists in this ecosystem
@@ -43,8 +43,6 @@ export default function Home() {
                 ) 
               }}
       </Pump>
-      <section className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-12">        
-      </section>
     </div>
   )
 }
