@@ -17,6 +17,7 @@
     "@tabler/icons-react": "^3.31.0",
     "@tailwindcss/typography": "^0.5.16",
     "basehub": "^8.1.6",
+    "chalk": "^5.4.1",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.12",
     "feed": "^4.2.2",
