@@ -21,11 +21,10 @@ import { ChevronRightIcon } from '@heroicons/react/16/solid'
 import ReactGA from "react-ga4";
 import { useEffect } from "react";
 import { StaticBackground } from '@/components/static-bg'
+import { SuperHero } from '@/components/Hero'
+import { Incubator } from '@/components/Incubator'
 
-// export const metadata = {
-//   description:
-//     'Reefside Ventures is a dynamic platform dedicated to supporting early-stage founders through a combination of programs, initiatives, custom services, and connections to funding.',
-// }
+
 
 function Hero() {
 
@@ -129,7 +128,7 @@ function BentoSection() {
           eyebrow="Source"
           title="Get the furthest reach"
           description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
-          graphic={<LogoCluster />}
+          graphic={1}
           className="lg:col-span-2"
         />
         <BentoCard
@@ -206,11 +205,15 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="h-[100vh]">
-      <Hero />
+    <div className="">
+      <SuperHero />
+      {/* <Hero /> */}
       <main>
         <Container className="mt-10">
           {/* <LogoCloud /> */}
+        </Container>
+        <Container className="mt-10">
+          <Incubator />
         </Container>
         {/* <div className="bg-gradient-to-b from-white from-50% to-gray-100 py-32">
           <FeatureSection /> 
@@ -219,7 +222,7 @@ export default function Home() {
         {/* <DarkBentoSection /> */}
       </main>
       {/* <Testimonials /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
