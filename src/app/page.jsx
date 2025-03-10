@@ -1,5 +1,5 @@
 'use client'
-import { Footer } from '@/components/Footer'
+//import { Footer } from '@/components/Footer'
 import ReactGA from "react-ga4";
 import { useEffect } from "react";
 import { SuperHero } from '@/components/Hero'
@@ -17,7 +17,7 @@ export default function Home() {
       <main>
         <Incubator />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
