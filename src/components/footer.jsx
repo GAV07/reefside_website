@@ -11,7 +11,7 @@ import Link from "next/link";
 import React from "react";
 import { Logo } from "./logo";
 
-export function Footer() {
+export default function Footer() {
   const pages = [
     // {
     //   title: "Products",

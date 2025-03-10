@@ -1,6 +1,5 @@
 'use client'
-import { Container } from '@/components/Container'
-import { Footer } from '@/components/Footer'
+import Footer from '@/components/Footer'
 import ReactGA from "react-ga4";
 import { useEffect } from "react";
 import { SuperHero } from '@/components/Hero'
@@ -16,11 +15,7 @@ export default function Home() {
     <div className="">
       <SuperHero />
       <main>
-        <Container className="mt-10">
-        </Container>
-        <Container className="mt-10">
-          <Incubator />
-        </Container>
+        <Incubator />
       </main>
       <Footer />
     </div>
