@@ -4,6 +4,7 @@ import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
 import React from "react";
 import { GridPattern } from "./GridPattern";
 import { Stats } from "./Stats";
+import Link from "next/link";
 
 export const Incubator = () => {
   return (
@@ -22,9 +23,11 @@ export const Incubator = () => {
       </div> */}
         <Stats />
       <div className="mx-auto max-w-2xl sm:text-center ">
-          <button className="mx-auto px-8 py-2 rounded-md bg-[#013B47] text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-teal-500">
-            Reefside Incubator Applications Open
-         </button>
+          <Link href="https://airtable.com/app4mzSgVO3FGJZOb/paglon1D95brqD7j3/form">  
+            <button href="" className="mx-auto px-8 py-2 rounded-md bg-[#013B47] text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-teal-500">
+              Reefside Incubator Applications Open
+          </button>
+          </Link>
       </div>
       <ul
         role="list"
