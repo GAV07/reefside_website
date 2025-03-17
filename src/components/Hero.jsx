@@ -7,7 +7,7 @@ import { Logo } from "./logo";
 import { FlipWords } from "./flip-words";
 
 export function SuperHero() {
-  const words = ["Resources", "Capital", "and a Dynamic Ecosystem"]
+  const words = ["Resources", "Capital", "a Dynamic Ecosystem", "Momentum", "Strategic Guidance", "Market Access", "Competitive Edge", "Acceleration"];
   return (
     (<div className="relative h-full min-h-[40rem] w-full bg-white">
       <div className="relative z-20 mx-auto max-w-7xl px-4 py-10 md:px-8 lg:px-4">
